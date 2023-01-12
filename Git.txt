@@ -1,0 +1,30 @@
+git add . (ngerekam semua perubahan)
+git add hello.txt (hanya tmbh file itu aja)
+
+git commit -m "feat: added new files" (message ini akan dilihat teman2)
+
+git log
+
+git commit --list (hati2 bs muncul password)
+
+git remote add origin https://github.com/kentgoldenhour/TrainingBootcampDay3.git
+
+git push origin master(master itu nama branch)
+git pull origin master
+
+git clone https://github.com/kentgoldenhour/TrainingBootcampDay3.git (link copy dari tombol hijau code)
+
+pull vs clone
+clone lebih kayak copy semua file di repository
+
+/* Additional 1
+Directory : folder biasa di windows
+LOCAL Repository : folder yang ada .git, di computer kamu
+REMOTE Repository : folder yang ada .git, di provider (GitHub, GitLab)
+*/
+
+/* Additional 2
+Git Push : saya "dorong" (push) perubahan yang ada di computer saya, ke repository di GitHub (remote)
+
+Git Pull : saya "Tarik" (pull) perubahan yang ada di Repository GitHub, ke computer saya (local) <-- KEBALIKAN Git Push
+*/
